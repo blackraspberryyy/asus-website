@@ -1,0 +1,711 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.jumbotron {
+  background-color: #222;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo-small {
+  font-size: 50px;
+  margin:0px 30px;
+  color:#222;
+}
+.logo {
+  color: #222;
+  font-size: 200px;
+  margin-top:100px;
+}
+.thumbnail {
+  padding: 15px;
+  border: none;
+  border-radius: 0;
+  background:#222;
+  border-radius:3px;
+  min-height:380px;
+  -webkit-animation:shadowsout 0.5s;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  background:none;
+  box-shadow:none;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #222;
+}
+.carousel-indicators li {
+  border-color: #222;
+}
+.carousel-indicators li.active {
+  background-color: #222;
+}
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+.item span {
+  font-style: normal;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #222;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Lato;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #222 !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #222;
+}
+footer{
+	margin-top:80px;
+	background: white;
+}
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+	0% {
+	  opacity: 0;
+	  transform: translateY(70%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+}
+@-webkit-keyframes slide {
+	0% {
+	  opacity: 0;
+	  -webkit-transform: translateY(70%);
+	}
+	100% {
+	  opacity: 1;
+	  -webkit-transform: translateY(0%);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.col-sm-6 {
+	  text-align: center;
+	  margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	.resize{
+		width:250px;
+	}
+	.thumbnail{
+		min-height:200px;
+	}
+	.paral0{
+		height:2000px;
+	}
+	.paral1{
+		height:2000px;
+	}
+	.paral2{
+		height:2000px;
+	}
+	.paral3{
+		height:2000px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.logo {
+		font-size: 150px;
+	}
+	.logo-small{
+		font-size:40px;
+		margin:0 5px;	
+	}
+	.resize{
+		width:200px;
+	}
+	.thumbnail{
+		min-height:150px;
+	}
+	.paral0{
+		height:2000px;
+	}
+	.paral1{
+		height:2000px;
+	}
+	.paral2{
+		height:2000px;
+	}
+	.paral3{
+		height:2000px;
+	}
+}
+@-webkit-keyframes shadows{
+	from{
+		box-shadow:none;
+	}
+	to{
+		box-shadow:5px 0px 40px rgba(0,0,0, 0.8);
+	}
+}
+@-webkit-keyframes shadowsout{
+	from{
+		box-shadow:5px 0px 40px rgba(0,0,0, 0.8);
+	}
+	to{
+		box-shadow:none;
+		
+	}
+}
+/*-----------------------------------*/
+.col-border{
+	border:1px solid #222;
+}
+.col-sm-6{
+	height:500px;
+}
+.thumbnail:hover{
+	-webkit-animation:shadows 0.5s;
+	box-shadow: 5px 0px 40px rgba(0,0,0, 0.8);
+}
+.shadows{
+  -webkit-animation:shadowsout 0.5s;
+}
+.shadows:hover{
+	-webkit-animation:shadows 0.5s;
+	box-shadow: 5px 0px 40px rgba(0,0,0, 0.8);
+}
+#submitbtn{
+	width:100%;
+	border-radius:0;
+	background:#26A65B;
+	color:white;
+}
+.padd{
+	padding:30px 20px;
+}
+/*******************************************************************************************/
+/*                                   SLIDE SHOW                                            */
+/*******************************************************************************************/
+#slideshow
+{
+	margin:0px;
+}
+/*************************************************LAPTOP****************************************/
+.paral1{
+	background-image: url('images/laptop/zen.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral2{
+	background-image: url('images/laptop/rog.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.paral3{
+	background-image: url('images/laptop/asusn.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral4{
+	background-image: url('images/laptop/Kseries.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral5{
+	background-image: url('images/laptop/xseries.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral6{
+	background-image: url('images/laptop/eseries.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral7{
+	background-image: url('images/laptop/chrome.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral8{
+	background-image: url('images/laptop/fseries.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*************************************************PHONE****************************************/
+.paralc1{
+	background-image: url('images/laptop/zenfone.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralc2{
+	background-image: url('images/laptop/deluxe.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.paralc3{
+	background-image: url('images/laptop/ultra.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralc4{
+	background-image: url('images/laptop/selfie.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralc5{
+	background-image: url('images/laptop/laser.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralc6{
+	background-image: url('images/laptop/max.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*************************************************ACCESSORIES****************************************/
+.parala1{
+	background-image: url('images/laptop/headset.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parala2{
+	background-image: url('images/laptop/keyboard.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.parala3{
+	background-image: url('images/laptop/mouse.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parala4{
+	background-image: url('images/laptop/mousepad.jpg');
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#scroll{
+	position:absolute;
+	bottom:20px;
+	width:50px;
+	font-size:50px;
+	left:50%;
+	margin-left:-25px;
+	position:fixed;
+	z-index:1;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.label{
+	height:130px;
+	width:600px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-65px;
+	margin-left:-300px;
+}
+.label h1{
+	font-size:80px;
+	font-family:Roboto;
+	color:white;
+}
+#arrow{
+	color:white;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+#crumbs ol{
+	text-align:left;
+	background:white;
+	border:1px solid rgba(0,0,0,0.2);
+	border-radius:5px;
+	position:fixed;
+	z-index:1;
+}
+#cart{
+	position:fixed;
+	z-index:1;
+	right:20px;
+}
+/**************************************************************************************************/
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+/***********************************************************************************************/
+.balance {
+    display: table;
+}
+.balance[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+/*************************************************LAPTOP****************************************/
+.zenbook
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/zenheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.rog
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/rogheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.nseries
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/nseriesheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.kseries
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/kseriesheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.xseries
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/xseriesheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.eseries
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/eseriesheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.chrome
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/chrome.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fseries
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/fseriesheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/*************************************************CELLPHONES***************************************/
+.zenfone
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/fone.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	
+}
+.deluxe
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/deluxeheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.ultra
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/ultraheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.selfie
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/selfieheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.laser
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/laserheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.max
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/maxheader.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/*************************************************ACCESSORIES****************************************/
+.headset
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/headsetheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.keyboard
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/keyboardheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.mouse
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/mouseheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	
+}
+.mousepad
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:600px;
+	z-index:-1;
+	background-image: url("images/mousepadheader.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

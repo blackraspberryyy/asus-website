@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Keyboards</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Lato" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel = "stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/30e1930d88.js"></script>
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel = "stylesheet" href= "assets/style.css">
+		<script>
+			$('.box').matchHeight();
+		</script>
+	</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src= "assets/images/asus_white.svg" width = "120"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="headset.html">HEADSET</a></li>					
+						<li><a href="#slide1">KEYBOARD</a></li>
+						<li><a href="mouse.html">MOUSE</a></li>
+						<li><a href="mousepad.html">MOUSEPAD</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--Container Header-->
+		<div id="head" class="container-fluid text-center">
+			<div id ="crumbs">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="index.html#products">Products</a></li>
+					<li class="breadcrumb-item"><a href="accessories.html">Accessories</a></li>
+					<li class="breadcrumb-item active">Keyboard</li>
+				</ol>
+			</div>
+			<div id = "cart">
+				<a class = "btn btn-success" data-toggle="modal" data-target="#cartpop"><i class = "fa fa-shopping-cart"></i>&nbsp; &nbsp; &nbsp;Add to cart</a>
+			</div>
+			<div style="height:600px">	
+			</div>
+			<div class="keyboard" id = "slide1"></div>
+			<!--*********************************MODAL*********************************************-->
+			<div class="modal fade" id="cartpop" role="dialog" style = "margin-top:40px;">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<i class = "fa fa-info-circle"></i>
+							<span class = "modal-title">INFORMATION BOX</span>
+						</div>
+						<div class="modal-body">
+							<h4>Item/s added to cart!</h4>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			<!--***********************************************************************************-->
+			<div class="row">
+				<div class = "col-lg-4"></div>
+				<div class="col-lg-4 text-center">
+					<center><h2>KEYBOARD</h2></center>
+					<h4>Take a look of our quality and innovative Keyboards</h4>
+				</div>
+				<div class = "col-lg-4"></div>
+			</div>
+		</div>
+		<!--TABLE-->
+		<div class="container-fluid text-center">
+			<div class="row slideanim my-row">
+				<div class = "col-lg-1">
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal">
+						<img src = "assets/images/accessories/key1.png" width = "100">
+						<h4>STRIX TACTIC PRO</h4>
+						<p>Ultra-durable, illuminated, mechanical gaming keyboard employing Cherry MX switches and engineered for superior responsiveness.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box1" type="checkbox" >
+						<label for="box1">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal2">
+						<img src = "assets/images/accessories/key2.png" width = "100">
+						<h4>Cerberus Arctic Keyboard</h4>
+						<p>Multi-color backlit USB gaming keyboard with splash-proof design.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box2" type="checkbox" >
+						<label for="box2">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal3">
+						<img src = "assets/images/accessories/key3.png" width = "100">
+						<h4>Cerberus Keyboard</h4>
+						<p>LED backlit USB gaming keyboard with splash-proof design</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box3" type="checkbox" >
+						<label for="box3">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-1">
+				</div>
+				<!--*********************************MODAL*********************************************-->
+				<!--STRIX TACTIC PRO-->
+				<div class="modal fade" id="myModal" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">STRIX TACTIC PRO</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/key1.png" width="400">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>DIMENSIONS</td>
+												<td colspan = "3">515.5 x 178.6 x 32.9 (mm)</td>
+											</tr>
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">Strix Tactic Pro mechanical gaming keyboard<br>
+												Quick-start guide<br>
+												Driver installation CD<br>
+												4 x Additional key caps<br>
+												key cap-removal tool</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">Connector: Single gold-plated USB<br>
+												Anti-ghosting: True NKRO (6KRO switch included)<br>
+												Switches: Fully mechanical Cherry MX type<br>
+												Switch lifecycle: 50-million keystrokes<br>
+												Backlit: Individually-backlit (orange) keys with 4-level settings<br>
+												Cable: Braided fiber 1.8m<br>
+												Key cap material: Tough ABS<br>
+												Media keys: Volume control, play/pause, previous track and next track<br>
+												Macro keys: Up to 21 customizable keys (13 dedicated macro keys + 8 switchable macro/function (F1-F8) keys)<br>
+												Special features: <br>
+												- On-the-fly macro recording<br>
+												- Dual modes: plug-and-play hardware mode and software mode<br>
+												- Gaming mode (disables Windows® key); Macro mode (reassigns F1-F8 as macro keys)</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php 5,500 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--Cerberus Arctic Keyboard-->
+				<div class="modal fade" id="myModal2" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Cerberus Arctic Keyboard</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/key2.png" width="400">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTIVITY TECHNOLOGY</td>
+												<td colspan = "3">
+												Wired</td>
+											</tr>
+											<tr>
+												<td>OS SUPPORT</td>
+												<td colspan = "3">Windows® 10<br>
+												Windows® 8.1<br>
+												Windows® 8<br>
+												Windows® 7<br>
+												Windows® XP</td>
+											</tr>
+											<tr>
+												<td>DIMENSIONS</td>
+												<td colspan = "3">471(L) x 186(W) x 41(H) mm</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">1100 g</td>
+											</tr>
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">1 x Cerberus Arctic Gaming Keyboard<br>
+												1 x Quick Start Guide<br>
+												1 x User Manual</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">Anti-ghosting: 19KRO (key rollover)<br>
+												Switch type: Membrane with rubber dome<br>
+												Backlight: Multi-colors (with 343 color combinations)<br>
+												Backlight brightness effect: 4-level light setting, 10-level breathing speed setting<br>
+												Cable /Connector: 2m Braided cable with gold-plated USB connector<br>
+												Media keys: Volume control, play/pause, previous track, next track and stop<br>
+												Macro keys: 12 Macro Keys (F1~F12) with macro enable/disable mode<br>
+												Special feature: Windows key lock, Rapid fire mode, W/A/S/D arrow keys</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php 1,600 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--Cerberus Keyboard-->
+				<div class="modal fade" id="myModal3" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ACerberus Keyboard</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/key3.png" width="400">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTIVITY TECHNOLOGY</td>
+												<td colspan = "3">
+												Wired</td>
+											</tr>
+											<tr>
+												<td>OS SUPPORT</td>
+												<td colspan = "3">Windows® 10<br>
+												Windows® 8.1<br>
+												Windows® 8<br>
+												Windows® 7<br>
+												Windows® XP</td>
+											</tr>
+											<tr>
+												<td>DIMENSIONS</td>
+												<td colspan = "3">471(L) x 186(W) x 41(H) mm</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">1100 g</td>
+											</tr>
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">1 x Cerberus Gaming Keyboard<br>
+												1 x Quick Start Guide<br>
+												</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">Anti-ghosting: 19KRO (key rollover)<br>
+												Switch type: Membrane with rubber dome<br>
+												Backlight: 2 colors (red/blue),4-level light setting with breathing mode<br>
+												Cable /Connector: 2m Braided cable with gold-plated USB connector<br>
+												Media keys: Volume control, play/pause, previous track, next track<br>
+												Macro keys: 12 Macro Keys (F1~F12) with macro enable/disable mode<br>
+												Special feature: Windows key lock</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php. 1,750 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				
+				<!--*********************************************************************************************-->
+			</div>
+		</div>
+		<footer class="container-fluid text-center">
+			<a href="#myPage" title="To Top">
+				<span class="glyphicon glyphicon-chevron-up" style= "color:white;"></span>
+			</a><br>
+            <h6 style= "color:#222;">Follow us : </h6><br>
+            <a href="#"><span class="fa fa-facebook logo-small slideanim" style= "color:#3b5998;" ></span></a>
+            <a href="#"><span class="fa fa-twitter logo-small slideanim" style= "color:#00aced;"></span></a>
+            <a href="#"><span class="fa fa-google logo-small slideanim" style= "color:#dd4b39;"></span></a><br><br>
+            <h6 style= "color:#222;">Created by: </h6>
+            <sub>Mary Louise P. Sadornas</sub><br>
+            <sub>Stephanie Marie D. Tan</sub><br>
+            <sub>Allen T. Torres</sub><br>
+            <sub>Juan Carlo D.R. Valencia</sub><br>
+            <sub>Angelo Markus B. Zaguirre</sub><br><br>
+            <h6>&nbsp;&nbsp;&nbsp;Made with love.</h6>
+            <span class= "glyphicon glyphicon-heart slideanim" style="color:#C0392B; font-size:15px;"></span> 
+		</footer>
+		<script src= "assets/animation.js"></script>
+	</body>
+</html>

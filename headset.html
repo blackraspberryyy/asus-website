@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Headsets</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Lato" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel = "stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/30e1930d88.js"></script>
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel = "stylesheet" href= "assets/style.css">
+		<script>
+			$('.box').matchHeight();
+		</script>
+	</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src= "assets/images/asus_white.svg" width = "120"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#slide1">HEADSET</a></li>					
+						<li><a href="keyboard.html">KEYBOARD</a></li>
+						<li><a href="mouse.html">MOUSE</a></li>
+						<li><a href="mousepad.html">MOUSEPAD</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--Container Header-->
+		<div id="head" class="container-fluid text-center">
+			<div id ="crumbs">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="index.html#products">Products</a></li>
+					<li class="breadcrumb-item"><a href="accessories.html">Accessories</a></li>
+					<li class="breadcrumb-item active">Headset</li>
+				</ol>
+			</div>
+			<div id = "cart">
+				<a class = "btn btn-success" data-toggle="modal" data-target="#cartpop"><i class = "fa fa-shopping-cart"></i>&nbsp; &nbsp; &nbsp;Add to cart</a>
+			</div>
+			<div style="height:600px">	
+			</div>
+			<div class="headset" id = "slide1"></div>
+			<!--*********************************MODAL*********************************************-->
+			<div class="modal fade" id="cartpop" role="dialog" style = "margin-top:40px;">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<i class = "fa fa-info-circle"></i>
+							<span class = "modal-title">INFORMATION BOX</span>
+						</div>
+						<div class="modal-body">
+							<h4>Item/s added to cart!</h4>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			<!--***********************************************************************************-->
+			<div class="row">
+				<div class = "col-lg-4"></div>
+				<div class="col-lg-4 text-center">
+					<center><h2>HEADSET</h2></center>
+					<h4>Take a look of our quality and innovative Headset</h4>
+				</div>
+				<div class = "col-lg-4"></div>
+			</div>
+		</div>
+		<!--TABLE-->
+		<div class="container-fluid text-center">
+			<div class="row slideanim my-row">
+				<div class = "col-lg-1">
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal">
+						<img src = "assets/images/accessories/hset1.png" width = "100">
+						<h4>ASUS STRIX DSP</h4>
+						<p>Gaming headset boasts 60mm neodymium-magnet drivers, plug and play USB audio station, and PC, Mac, PS4, and smart-device compatibility.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box1" type="checkbox" >
+						<label for="box1">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal2">
+						<img src = "assets/images/accessories/hset2.png" width = "100">
+						<h4>ASUS STRIX PRO</h4>
+						<p>Gaming headset boasts 60mm neodymium-magnet drivers, 90% environmental-noise cancellation, and PC, Mac, PS4 and smart-device compatibility.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box2" type="checkbox" >
+						<label for="box2">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal3">
+						<img src = "assets/images/accessories/hset3.png" width = "100">
+						<h4>ASUS ROG Centurion</h4>
+						<p>ROG Centurion true 7.1 gaming headset with 10 discrete drivers, digital microphone, Hi-Fi-grade headphone amplifier, and USB audio station.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box3" type="checkbox" >
+						<label for="box3">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "cursor:pointer; border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;" data-toggle="modal">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal4">
+						<img src = "assets/images/accessories/hset4.png" width = "100">
+						<h4>ASUS ROG Strix Wireless</h4>
+						<p>2.4GHz wireless gaming headset with 7.1 surround sound, 10+ hour battery life, and multiplatform compatibility.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box4" type="checkbox" >
+						<label for="box4">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal5">
+					<img src = "assets/images/accessories/hset5.png" width = "100">
+					<h4>ASUS ORION</h4>
+					<p>50mm neodymium drivers, 30dB noise isolation and large 100mm over-ear cushions for long gaming sessions.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box5" type="checkbox" >
+						<label for="box5">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-1">
+				</div>
+				<!--*********************************MODAL*********************************************-->
+				<!--ASUS STRIX DSP-->
+				<div class="modal fade" id="myModal" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ASUS STRIX DSP</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/hset1.png" width="400">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTOR</td>
+												<td colspan = "3">USB<br>
+												3.5 mm(1/8”) connector Audio/mic combo<br>
+												3.5 mm(1/8”) connector unique 5-pole</td>
+											</tr>
+											<tr>
+												<td>PLATFORM</td>
+												<td colspan = "3">PC<br>
+												MAC<br>
+												Mobile device<br>
+												PlayStation® 4</td>
+											</tr>
+											<tr>
+												<td>DRIVER</td>
+												<td colspan = "3">Driver diameter : 60 mm<br>
+												Driver material : Neodymium magnet</td>
+											</tr>
+											<tr>
+												<td>IMPEDANCE</td>
+												<td colspan = "3">32 Ohm</td>
+											</tr>
+											<tr>
+												<td>FRQUENCY RESPONSE<br>(headphones)</td>
+												<td colspan = "3">20 ~ 20000 Hz</td>
+											</tr>
+											<tr>
+												<td>SENSITIVITY<br>(headphones)</td>
+												<td colspan = "3">98 dB</td>
+											</tr>
+											<tr>
+												<td>PICK-UP PATTERN</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												Uni-directional</td>
+											</tr>
+											<tr>
+												<td>FREQUENCY RESPONSE<br>(microphone)</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												50 ~ 16000 Hz</td>
+											<tr>
+												<td>SENSITIVITY<br>(microphone)/td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												-40 dB</td>
+											</tr>
+											<tr>
+												<td>CABLE</td>
+												<td colspan = "3">Braided fibre cable (headset cable 1.5M + USB cable 1.5M = 3M (Max.)</td>
+											</tr>
+											<tr>
+												<td>CABLE LENGTH</td>
+												<td colspan = "3">3 meter</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">320 g</td>
+											</tr>
+											<tr>
+												<td>ACCESSORIES</td>
+												<td colspan = "3">Mobile adapter (type A)<br>
+												Mobile adapter (type B)<br>
+												USB cable<br>
+												Quick start guide<br>
+												USB audio station</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">Audio station<br><br>
+												ENC performance: >90% environmental noise cancellation<br>
+												Power: USB powered<br>
+												Features: Dolby® surround, headphone amplifier, environmental noise cancellation, game audio spectrum profiles<br>
+												Speaker output: 3.5mm speaker jack
+												</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php 7,700 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--ASUS STRIX PRO-->
+				<div class="modal fade" id="myModal2" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ASUS STRIX PRO</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/hset2.png" width="400">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTOR</td>
+												<td colspan = "3">
+												3.5 mm(1/8”) connector Audio/mic combo<br>
+												3.5 mm(1/8”) connector Audio/mic separate<br>
+												3.5 mm(1/8”) connector unique 5-pole</td>
+											</tr>
+											<tr>
+												<td>PLATFORM</td>
+												<td colspan = "3">PC<br>
+												MAC<br>
+												Mobile device<br>
+												PlayStation® 4</td>
+											</tr>
+											<tr>
+												<td>DRIVER</td>
+												<td colspan = "3">Driver diameter : 60 mm<br>
+												Driver material : Neodymium magnet</td>
+											</tr>
+											<tr>
+												<td>IMPEDANCE</td>
+												<td colspan = "3">32 Ohm</td>
+											</tr>
+											<tr>
+												<td>FRQUENCY RESPONSE<br>(headphones)</td>
+												<td colspan = "3">20 ~ 20000 Hz</td>
+											</tr>
+											<tr>
+												<td>SENSITIVITY<br>(headphones)</td>
+												<td colspan = "3">98 dB</td>
+											</tr>
+											<tr>
+												<td>PICK-UP PATTERN</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												Uni-directional</td>
+											</tr>
+											<tr>
+												<td>FREQUENCY RESPONSE<br>(microphone)</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												50 ~ 16000 Hz</td>
+											<tr>
+												<td>SENSITIVITY<br>(microphone)/td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												-40 dB</td>
+											</tr>
+											<tr>
+												<td>CABLE</td>
+												<td colspan = "3">Braided fibre cable (headset cable 1.2M + control box 1.5M = 2.7M (Max.)</td>
+											</tr>
+											<tr>
+												<td>CABLE LENGTH</td>
+												<td colspan = "3">2.7 meter</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">320 g</td>
+											</tr>
+											<tr>
+												<td>ACCESSORIES</td>
+												<td colspan = "3">Control box (with 3.5mm audio/mic separate connectors)<br>
+												Mobile adapter (type A)<br>
+												Mobile adapter (type B)<br>
+												Quick start guide</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">The Environmental Noise Cancellation (ENC) technology filters out over 90% noises for clear in-game voice.
+												</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php 9,900 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--ASUS ROG Centurion-->
+				<div class="modal fade" id="myModal3" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ASUS ROG Centurion</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/hset3.png" width="350">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTOR</td>
+												<td colspan = "3">
+												USB</td>
+											</tr>
+											<tr>
+												<td>PLATFORM</td>
+												<td colspan = "3">PC<br>
+												MAC<br>
+												</td>
+											</tr>
+											<tr>
+												<td>DRIVER</td>
+												<td colspan = "3">Driver diameter : Front : 40 mm, Subwoofer : 40 mm, Center : 30 mm, Side : 20 mm, Rear : 20 mm<br>
+												Driver material : Neodymium magnet</td>
+											</tr>
+											<tr>
+												<td>MICROPHONE</td>
+												<td colspan = "3">Uni-directional</td>
+											</tr>
+											<tr>
+												<td>IMPEDANCE</td>
+												<td colspan = "3">32 Ohm ± % @ Hz</td>
+											</tr>
+											<tr>
+												<td>FRQUENCY RESPONSE<br>(headphones)</td>
+												<td colspan = "3">20 ~ 20000 Hz</td>
+											</tr>
+											<tr>
+												<td>PICK-UP PATTERN</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												Uni-directional</td>
+											</tr>
+											<tr>
+												<td>FREQUENCY RESPONSE<br>(microphone)</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												50 ~ 16000 Hz</td>
+											<tr>
+												<td>SENSITIVITY<br>(microphone)/td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												-26 dB</td>
+											</tr>
+											<tr>
+												<td>CABLE</td>
+												<td colspan = "3">Braided fibre cable (headset cable 1.5M + USB cable 1.5M = 3M (Max.)</td>
+											</tr>
+											<tr>
+												<td>CABLE LENGTH</td>
+												<td colspan = "3">3 meter</td>
+											</tr>
+											<tr>
+												<td>ACCESSORIES</td>
+												<td colspan = "3">Detachable microphone<br>
+												Headset stand<br>
+												USB cable<br>
+												Quick start guide<br>
+												USB audio station<br>
+												HDMI-to-3.5mm speaker splitter cable</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">Audio station<br><br>
+												ENC performance: >90% environmental noise cancellation<br>
+												Power: USB powered<br>
+												Features: ESS9601 HI-FI Headphone amplifier, stereo mode, environmental noise cancellation, game audio spectrum profiles<br>
+												Speaker output: speaker jack with HDMI-to-3.5mm speaker splitter cable included
+												</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php 12,000 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--ASUS ROG Strix Wireless-->
+				<div class="modal fade" id="myModal4" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ASUS ROG Strix Wireless</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/hset4.png" width="300">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTOR</td>
+												<td colspan = "3">USB (wireless 2.4GHz)<br>
+												3.5 mm(1/8”) connector Audio/mic combo<br>
+												3.5 mm(1/8”) connector Audio/mic separate</td>
+											</tr>
+											<tr>
+												<td>PLATFORM</td>
+												<td colspan = "3">PC<br>
+												MAC<br>
+												Mobile device<br>
+												PlayStation® 4<br>
+												Xbox One®
+												</td>
+											</tr>
+											<tr>
+												<td>DRIVER</td>
+												<td colspan = "3">Driver diameter : 60 mm<br>
+												Driver material : Neodymium magnet</td>
+											</tr>
+											<tr>
+												<td>MICROPHONE</td>
+												<td colspan = "3">Uni-directional</td>
+											</tr>
+											<tr>
+												<td>IMPEDANCE</td>
+												<td colspan = "3">32 Ohm</td>
+											</tr>
+											<tr>
+												<td>FRQUENCY RESPONSE<br>(headphones)</td>
+												<td colspan = "3">20 ~ 20000 Hz</td>
+											</tr>
+											<tr>
+												<td>PICK-UP PATTERN</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												Uni-directional</td>
+											</tr>
+											<tr>
+												<td>FREQUENCY RESPONSE<br>(microphone)</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												50 ~ 16000 Hz</td>
+											<tr>
+												<td>SENSITIVITY<br>(microphone)/td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												-40 dB</td>
+											</tr>
+											<tr>
+												<td>CABLE</td>
+												<td colspan = "3">Braided fibre cable (headset cable 1.5M)</td>
+											</tr>
+											<tr>
+												<td>CABLE LENGTH</td>
+												<td colspan = "3">31.5 meter</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">350 g</td>
+											</tr>
+											<tr>
+												<td>ACCESSORIES</td>
+												<td colspan = "3">Audio/mic splitter cable<br>
+												Charging cable<br>
+												Detachable microphone<br>
+												Quick start guide</td>
+											</tr>
+											<tr>
+												<td>NOTE</td>
+												<td colspan = "3">2.4GHz USB dongle<br>
+												Detachable 3.5mm audio/mic combined connector
+												</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php. 8,500 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--ASUS ORION-->
+				<div class="modal fade" id="myModal5" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ASUS ORION</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/hset5.png" width="300">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONNECTOR</td>
+												<td colspan = "3">
+												3.5 mm(1/8”) connector Audio/mic combo</td>
+											</tr>
+											<tr>
+												<td>DRIVER</td>
+												<td colspan = "3">Driver diameter : 50 mm<br>
+												Driver material : Neodymium magnet</td>
+											</tr>
+											<tr>
+												<td>MAXIMUM INPUT</td>
+												<td colspan = "3">50 mW</td>
+											</tr>
+											<tr>
+												<td>IMPEDANCE</td>
+												<td colspan = "3">32 Ohm ± 3 %</td>
+											</tr>
+											<tr>
+												<td>FRQUENCY RESPONSE<br>(headphones)</td>
+												<td colspan = "3">20 ~ 20000 Hz</td>
+											</tr>
+											<tr>
+												<td>SENSITIVITY<br>(headphones)</td>
+												<td colspan = "3">100 dB</td>
+											</tr>
+											<tr>
+												<td>NOISE CANCELLATION</td>
+												<td colspan = "3"><strong>Passive (noise isolation)</strong><br>
+												Maximum > 30 dB</td>
+											</tr>
+											<tr>
+												<td>FREQUENCY RESPONSE<br>(microphone)</td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												50 ~ 16000 Hz</td>
+											<tr>
+												<td>SENSITIVITY<br>(microphone)/td>
+												<td colspan = "3"><strong>Microphone boom:</strong><br>
+												-40 dB</td>
+											</tr>
+											<tr>
+												<td>CABLE</td>
+												<td colspan = "3">Braided cable</td>
+											</tr>
+											<tr>
+												<td>CABLE LENGTH</td>
+												<td colspan = "3">2.5 meter</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">268 g</td>
+											</tr>
+											<tr>
+												<td>ACCESSORIES</td>
+												<td colspan = "3">User guide</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php. 6,990 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--*********************************************************************************************-->
+			</div>
+		</div>
+		<footer class="container-fluid text-center">
+			<a href="#myPage" title="To Top">
+				<span class="glyphicon glyphicon-chevron-up" style= "color:white;"></span>
+			</a><br>
+            <h6 style= "color:#222;">Follow us : </h6><br>
+            <a href="#"><span class="fa fa-facebook logo-small slideanim" style= "color:#3b5998;" ></span></a>
+            <a href="#"><span class="fa fa-twitter logo-small slideanim" style= "color:#00aced;"></span></a>
+            <a href="#"><span class="fa fa-google logo-small slideanim" style= "color:#dd4b39;"></span></a><br><br>
+            <h6 style= "color:#222;">Created by: </h6>
+            <sub>Mary Louise P. Sadornas</sub><br>
+            <sub>Stephanie Marie D. Tan</sub><br>
+            <sub>Allen T. Torres</sub><br>
+            <sub>Juan Carlo D.R. Valencia</sub><br>
+            <sub>Angelo Markus B. Zaguirre</sub><br><br>
+            <h6>&nbsp;&nbsp;&nbsp;Made with love.</h6>
+            <span class= "glyphicon glyphicon-heart slideanim" style="color:#C0392B; font-size:15px;"></span> 
+		</footer>
+		<script src= "assets/animation.js"></script>
+	</body>
+</html>

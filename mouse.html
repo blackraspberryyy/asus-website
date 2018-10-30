@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mouse</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Lato" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel = "stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/30e1930d88.js"></script>
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel = "stylesheet" href= "assets/style.css">
+		<script>
+			$('.box').matchHeight();
+		</script>
+	</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src= "assets/images/asus_white.svg" width = "120"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="headset.html">HEADSET</a></li>					
+						<li><a href="keyboard.html">KEYBOARD</a></li>
+						<li><a href="#slide1">MOUSE</a></li>
+						<li><a href="mousepad.html">MOUSEPAD</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--Container Header-->
+		<div id="head" class="container-fluid text-center">
+			<div id ="crumbs">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="index.html#products">Products</a></li>
+					<li class="breadcrumb-item"><a href="accessories.html">Accessories</a></li>
+					<li class="breadcrumb-item active">Mouse</li>
+				</ol>
+			</div>
+			<div id = "cart">
+				<a class = "btn btn-success" data-toggle="modal" data-target="#cartpop"><i class = "fa fa-shopping-cart"></i>&nbsp; &nbsp; &nbsp;Add to cart</a>
+			</div>
+			<div style="height:600px">	
+			</div>
+			<div class="mouse" id = "slide1"></div>
+			<!--*********************************MODAL*********************************************-->
+			<div class="modal fade" id="cartpop" role="dialog" style = "margin-top:40px;">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<i class = "fa fa-info-circle"></i>
+							<span class = "modal-title">INFORMATION BOX</span>
+						</div>
+						<div class="modal-body">
+							<h4>Item/s added to cart!</h4>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			<!--***********************************************************************************-->
+			<div class="row">
+				<div class = "col-lg-4"></div>
+				<div class="col-lg-4 text-center">
+					<center><h2>MOUSE</h2></center>
+					<h4>Take a look of our quality and innovative mouse</h4>
+				</div>
+				<div class = "col-lg-4"></div>
+			</div>
+		</div>
+		<!--TABLE-->
+		<div class="container-fluid text-center">
+			<div class="row slideanim my-row">
+				<div class = "col-lg-1">
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal">
+						<img src = "assets/images/accessories/mouse1.png" width = "100">
+						<h4>STRIX CLAW DARK EDITION</h4>
+						<p>Right-handed ergonomic optical gaming mouse crafted for first-person shooting gamers.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box1" type="checkbox" >
+						<label for="box1">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal2">
+						<img src = "assets/images/accessories/mouse2.png" width = "100">
+						<h4>ROG Sica</h4>
+						<p>Compact ambidextrous mouse with enhanced click resistance.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box2" type="checkbox" >
+						<label for="box2">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal3">
+						<img src = "assets/images/accessories/mouse3.png" width = "100">
+						<h4>ROG Gladius</h4>
+						<p>Professional gaming mouse with customizable click resistance.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box3" type="checkbox" >
+						<label for="box3">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "cursor:pointer; border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;" data-toggle="modal">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal4">
+						<img src = "assets/images/accessories/mouse4.png" width = "100">
+						<h4>ROG Spatha</h4>
+						<p>Complete control for MMO victory.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box4" type="checkbox" >
+						<label for="box4">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-2 text-center shadows balance" style = "border:1px solid rgba(0,0,0,0.2); padding:-10px 0 20px 0;">
+					<div style = "cursor:pointer;" data-toggle="modal" data-target="#myModal5">
+					<img src = "assets/images/accessories/mouse5.png" width = "100">
+					<h4>ROG GX860 Buzzard Mouse</h4>
+					<p>Supreme precision. Unerring accuracy.</p>
+					</div>
+					<div class="input-group margin-bottom-sm" style = "position:absolute; bottom:-50px; left:30%;">
+						<input id="box5" type="checkbox" >
+						<label for="box5">Add to cart</label>
+					</div>
+				</div>
+				<div class = "col-lg-1">
+				</div>
+				<!--*********************************MODAL*********************************************-->
+				<!-- STRIX GLIDE SPEED -->
+				<div class="modal fade" id="myModal" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">STRIX CLAW DARK EDITION<h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/mouse1.png">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">Strix Claw Dark Edition optical gaming mouse<br>Quick-start guide<br>Driver installation CD</td>
+											</tr>
+											<tr>
+												<td>SENSOR</td>
+												<td colspan = "3">PMW3310DH-AWQT</td>
+											</tr>
+											<tr>
+												<td>RESOLUTION</td>
+												<td colspan = "3">Native 5000 dpi</td>
+											</tr>
+											<tr>
+												<td>SWITCHES</td>
+												<td colspan = "3">Japan-made Omron D2F-01F</td>
+											</tr>
+											<tr>
+												<td>FRAMES PER SECOND</td>
+												<td colspan = "3">6500 fps</td>
+											</tr>
+											<tr>
+												<td>INCHES PER SECOND</td>
+												<td colspan = "3">130 ips</td>
+											</tr>
+											<tr>
+												<td>COUNTS PER INCH</td>
+												<td colspan = "3">MAX. 5000cpi</td>
+											</tr>
+											<tr>
+												<td>MAXIMUM ACCELERATION</td>
+												<td colspan = "3">30g</td>
+											</tr>
+											<tr>
+												<td>LIFT DISTANCE </td>
+												<td colspan = "3">TYP. 3mm</td>
+											</tr>
+											<tr>
+												<td>MAXIMUM POLLING</td>
+												<td colspan = "3">1000Hz</td>
+											</tr>
+											<tr>
+												<td>OPERATING SYSTEM</td>
+												<td colspan = "3">Microsoft® Windows® XP / 7 / 8.x</td>
+											</tr>
+											<tr>
+												<td>SIZE</td>
+												<td colspan = "3">Size: 122.55 x 71.75 x 45.25 (mm)</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">110g (without cable)</td>
+											</tr>
+											<tr>
+												<td>CABLE</td>
+												<td colspan = "3">2M with gold-plated USB connector</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php.2,000 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!-- STRIX GLIDE CONTROL -->
+				<div class="modal fade" id="myModal2" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ROG Sica</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/mouse2.png">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">2 x ROG logo stickers</td>
+											</tr>
+											<tr>
+											<tr>
+												<td>CONNECTIVITY TECHNOLOGY</td>
+												<td colspan = "3">Wired</td>
+											</tr>
+											<tr>
+												<td>TRACKING</td>
+												<td colspan = "3">Optical</td>
+											</tr>
+											<tr>
+												<td>RESOLUTION</td>
+												<td colspan = "3">5000 dpi</td>
+											</tr>
+											<tr>
+												<td>SWITCHES</td>
+												<td colspan = "3"><strong>Omron D2F Series Switches:</strong><br>D2F, D2F-F, D2F-01, D2F-01F<br><strong>Omron D2FC Series Switches:</strong><br>D2FC-3M, D2FC-F-7N, D2FC-F-7N(10M), D2FC-F-7N(20M)</td>
+											</tr>
+											<tr>
+												<td>OPERATING SYSTEM SUPPORT</td>
+												<td colspan = "3">Windows® 8.1<br>Windows® 8<br>Windows® 7</td>
+											</tr>
+											<tr>
+												<td>DIMENSION</td>
+												<td colspan = "3">L 115 x W 62 x H 39 mm</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">117 g with cable</td>
+											</tr>
+											<tr>
+												<td>COLOR</td>
+												<td colspan = "3">Steel<br>Grey</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php.3,000 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--ROG Gladius-->
+				<div class="modal fade" id="myModal3" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ROG Gladius</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/mouse3.png">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">1 x 2-meter braided USB cable<br>1 x 1-meter regular rubber USB cable<br>2 x Japanese-made Omron switches<br>1 x ROG pouch<br>2 x ROG logo stickers<br>4 x mouse feet</td>
+											</tr>
+											<tr>
+											<tr>
+												<td>CONNECTIVITY TECHNOLOGY</td>
+												<td colspan = "3">Wired</td>
+											</tr>
+											<tr>
+												<td>TRACKING</td>
+												<td colspan = "3">Optical</td>
+											</tr>
+											<tr>
+												<td>RESOLUTION</td>
+												<td colspan = "3">6400 dpi</td>
+											</tr>
+											<tr>
+												<td>SWITCHES</td>
+												<td colspan = "3"><strong>Omron D2F Series Switches:</strong><br>D2F, D2F-F, D2F-01, D2F-01F<br><strong>Omron D2FC Series Switches:</strong><br>D2FC-3M, D2FC-F-7N, D2FC-F-7N(10M), D2FC-F-7N(20M)</td>
+											</tr>
+											<tr>
+												<td>OPERATING SYSTEM SUPPORT</td>
+												<td colspan = "3">Windows® 8.1<br>Windows® 8<br>Windows® 7</td>
+											</tr>
+											<tr>
+												<td>DIMENSION</td>
+												<td colspan = "3">L 126 x W 67 x H 45 mm</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">116 g</td>
+											</tr>
+											<tr>
+												<td>COLOR</td>
+												<td colspan = "3">Steel<br>Grey</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php.3,000 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!-- ROG Spatha -->
+				<div class="modal fade" id="myModal4" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ROG Spatha</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/mouse4.png">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">1 x wireless receiver/charging dock<br>1 x 2-meter braided USB cable<br>1 x 1-meter rubber USB cable<br>2 x Japanese-made Omron switches<br>1 x carry case<br>1 x star-head screwdriver<br>2 x ROG logo stickers<br>1 x ROG certificate</td>
+											</tr>
+											<tr>
+											<tr>
+												<td>CONNECTIVITY TECHNOLOGY</td>
+												<td colspan = "3">Wired/Wireless</td>
+											</tr>
+											<tr>
+												<td>WIRELESS TECHNOLOGY</td>
+												<td colspan = "3">RF 2.4GHz</td>
+											</tr>
+											<tr>
+												<td>TRACKING</td>
+												<td colspan = "3">Laser</td>
+											</tr>
+											<tr>
+												<td>RESOLUTION</td>
+												<td colspan = "3">8200 dpi</td>
+											</tr>
+											<tr>
+												<td>SWITCHES</td>
+												<td colspan = "3"><strong>Omron D2F Series Switches:</strong><br>D2F, D2F-F, D2F-01, D2F-01F<br><strong>Omron D2FC Series Switches:</strong><br>D2FC-3M, D2FC-F-7N, D2FC-F-7N(10M), D2FC-F-7N(20M)</td>
+											</tr>
+											<tr>
+												<td>OPERATING SYSTEM SUPPORT<td>
+												<td colspan = "3">Windows® 10<br>Windows® 8.1<br>Windows® 8<br>Windows® 7</td>
+											</tr>
+											<tr>
+												<td>DIMENSION</td>
+												<td colspan = "3">89*137*45mm (mouse)<br>81*141*22mm (ducking)</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">178.5 g without cable</td>
+											</tr>
+											<tr>
+												<td>COLOR</td>
+												<td colspan = "3">Titanium<br>Black</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php.10,000 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--ROG GX860 Buzzard Mouse-->
+				<div class="modal fade" id="myModal5" role="dialog" style = "margin-top:40px;">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style = "overflow-y:scroll; height:450px;">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">ROG GX860 Buzzard Mouse</h4>
+							</div>
+							<div class="modal-body">
+								<img src = "assets/images/accessories/mouse5.png" width="400">
+								<div class="table-responsive">
+									<table class="table">
+										<thead>
+											<tr>
+												<th colspan = "4" style = "text-align:center; color:black;">SPECIFICATION</th>
+											</tr>
+										</thead>
+										<tbody style = "text-align:left;">
+											<tr>
+												<td>CONTENTS</td>
+												<td colspan = "3">1 x ROG GX860 Buzzard Mouse<br>1 x QSG</td>
+											</tr>
+											<tr>
+											<tr>
+												<td>CONNECTIVITY TECHNOLOGY</td>
+												<td colspan = "3">Wired</td>
+											</tr>
+											<tr>
+												<td>TRACKING</td>
+												<td colspan = "3">Laser</td>
+											</tr>
+											<tr>
+												<td>RESOLUTION</td>
+												<td colspan = "3">50~8200 dpi (adjustable)<br><strong>Default Resolution:</strong><br>800dpi/1600dpi/3200dpi/5600dpi</td>
+											</tr>
+											<tr>
+												<td>OPERATING SYSTEM SUPPORT</td>
+												<td colspan = "3">Windows® 8.1<br>Windows® 8<br>Windows® 7<br>Windows® XP</td>
+											</tr>
+											<tr>
+												<td>DIMENSION</td>
+												<td colspan = "3">118.2 x 68.4 x 40 (mm)</td>
+											</tr>
+											<tr>
+												<td>WEIGHT</td>
+												<td colspan = "3">98 g without cable</td>
+											</tr>
+											<tr>
+												<td>COLOR</td>
+												<td colspan = "3">Black</td>
+											</tr>
+											<tr>
+												<td>PRICE</td>
+												<td>Php.9,700 </td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<!--*********************************************************************************************-->
+			</div>
+		</div>
+		<footer class="container-fluid text-center">
+			<a href="#myPage" title="To Top">
+				<span class="glyphicon glyphicon-chevron-up" style= "color:white;"></span>
+			</a><br>
+            <h6 style= "color:#222;">Follow us : </h6><br>
+            <a href="#"><span class="fa fa-facebook logo-small slideanim" style= "color:#3b5998;" ></span></a>
+            <a href="#"><span class="fa fa-twitter logo-small slideanim" style= "color:#00aced;"></span></a>
+            <a href="#"><span class="fa fa-google logo-small slideanim" style= "color:#dd4b39;"></span></a><br><br>
+            <h6 style= "color:#222;">Created by: </h6>
+            <sub>Mary Louise P. Sadornas</sub><br>
+            <sub>Stephanie Marie D. Tan</sub><br>
+            <sub>Allen T. Torres</sub><br>
+            <sub>Juan Carlo D.R. Valencia</sub><br>
+            <sub>Angelo Markus B. Zaguirre</sub><br><br>
+            <h6>&nbsp;&nbsp;&nbsp;Made with love.</h6>
+            <span class= "glyphicon glyphicon-heart slideanim" style="color:#C0392B; font-size:15px;"></span> 
+		</footer>
+		<script src= "assets/animation.js"></script>
+	</body>
+</html>
